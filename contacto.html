@@ -1,0 +1,91 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<link rel="icon" href="favicon.ico" type="image/x-icon">
+		<title>Contacto - Aim&eacute;</title>
+		<link href="estilos.css"  rel="stylesheet"  type="text/css">
+		<link rel="stylesheet" href="css/jquery.fancybox.css" />
+
+	</head>
+
+	<body>
+		<header>
+			<img id="mancha-negra" src="img/header-mancha-negra.png" width="665" height="408" alt=""/>
+		  <section id="imagenes_header">				
+					<img id="logo-header" src="img/Icon_logo.svg" width="500px" alt="Logo de Aim&eacute;"/>
+			<img id="header_perfil_desktop" src="img/header_perfil_desktop.png" width="600px" height="600px" alt="Foto de Aim&eacute;"/>	
+			</section>
+			<nav>
+				
+				<div class="child botones" id="sobre-mi">
+					<a href="sobre-mi.html">
+						<img src="img/boton-sobre-mi.png" alt="Sobre Mi"/>
+					</a>
+				</div>
+				
+				<div class="child botones" id="estudios">
+					<a href="estudios.html">
+						<img src="img/boton-estudios.png" alt="Estudios"/>
+					</a>
+				</div>
+				
+				<div class="child botones" id="proyectos">
+					<a href="proyectos.html">
+						<img src="img/boton-proyectos.png" alt="Proyectos"/>
+					</a>
+				</div>
+				
+				<div class="child botones contacto" id="contacto">
+					<a href="contacto.html">
+						<img src="img/boton-contacto.png" alt="Contacto"/>
+					</a>
+				</div>
+				
+			</nav>
+		</header>		
+		<main>
+			<img id="mancha-rosa" src="img/mancha-rosa-general.png" width="605" height="1147" alt=""/>
+			<article  id="contenedor-contacto">
+				
+   	    	    <img id="contacto-mobile" src="img/contacto-mobile.png" width="500" height="350" alt=""/>
+			  <div>
+					<h2>CERVEZA GRATIS*</h2>
+					<p>En caso de que quieras contactarme para que trabaje en tu proyecto, y suponiendo que tu proyecto es una cerveza, dejame los siguientes datos: </p>
+				
+					<form method="post" action="mailto:aime.fdg+pagina@gmail.com" target="_blank" enctype="text/plain" >
+					
+						<label for="Nombre">Nombre</label>
+						<input type="text" name="Nombre" id="nombre" placeholder="Ej.: Manjula Nahasapeemapetilon" required>
+
+						<label for="Mail">Mail</label>
+						<input type="email" placeholder="Ej.: novena.nube@gmail.com" name="Mail" id="mail" required>
+
+						<p>Quiero mi cerveza en un/a:</p>
+							<label> <input type="checkbox" name="dise&ntilde;o de afiches" value="Disen;o de afiches" id="diseno-de-afiches"> Dise&ntilde;o de afiches </label>
+							<label><input type="checkbox" name="dise&ntilde;o editorial" value="Diseno editorial" id="diseno-editorial"> Dise&ntilde;o editorial  </label>
+							<label> <input type="checkbox" name="ilustracion" id="ilustracion"> Ilustraci&oacute;n  </label>
+							<label> <input type="checkbox" name="fotografia" value="Fotograf&iacute;a" id="fotografia"> Fotograf&iacute;a </label>
+							<label> <input type="checkbox" name="otros" value="otros" id="otros"> Otros </label>
+
+						<label for="Mensaje">M&aacute;s detalles importantes</label>
+						<textarea name="Mensaje" id="mensaje">
+
+						</textarea>
+
+						<input class="botones" id="send" type="submit" value="Enviar consulta">
+				
+					</form>
+					<h4>*no hay trabajo gratis, pero s&iacute; cerveza cuando terminemos el proyecto</h4>
+				</div>
+
+    	        	<img id="contacto-desktop" src="img/contacto-desktop.png" width="406" height="500" alt="">	
+			  	
+			</article>
+		</main>
+			
+		
+		
+	</body>
+</html>
